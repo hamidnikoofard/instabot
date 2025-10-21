@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function page() {
-console.log('console log');
+  console.log('console log');
 
-  return (
-    <div>page</div>
-  )
+  return <div>page</div>;
 }
 
-export default page
+export default page;
