@@ -12,9 +12,8 @@ import {
   AuthLink,
 } from '../components';
 import { loginSchema, type LoginFormData } from '../schemas/loginSchema';
-import Link from 'next/link';
 
-function page() {
+function Page() {
   const {
     register,
     handleSubmit,
@@ -24,8 +23,7 @@ function page() {
     resolver: zodResolver(loginSchema),
   });
 
-  const onSubmit = (data: LoginFormData) => {
-    console.log(data);
+  const onSubmit = () => {
     reset();
     toast.success('ورود با موفقیت انجام شد');
   };
@@ -62,4 +60,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

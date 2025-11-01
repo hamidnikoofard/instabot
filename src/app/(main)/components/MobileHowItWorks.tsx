@@ -1,10 +1,10 @@
 'use client';
 import React from 'react';
-import { UserPlus, Instagram, Link2, Bot } from 'lucide-react';
+import { UserPlus, Instagram, Link2, Bot, LucideIcon } from 'lucide-react';
 
 interface ProgressStep {
   id: number;
-  icon: React.ComponentType<any>;
+  icon: LucideIcon;
   title: string;
   description: string;
   threshold: number;
@@ -48,7 +48,6 @@ const steps: ProgressStep[] = [
 const VerticalStep = ({
   step,
   isLast,
-  index,
 }: {
   step: ProgressStep;
   isLast: boolean;

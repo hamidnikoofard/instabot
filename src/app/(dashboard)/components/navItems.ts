@@ -4,7 +4,6 @@ import {
   Settings,
   BarChart3,
   FolderOpen,
-  Bell,
 } from 'lucide-react';
 import { LucideIcon } from 'lucide-react';
 

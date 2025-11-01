@@ -17,7 +17,7 @@ import {
   type RegisterFormData,
 } from '../schemas/registerSchema';
 
-function page() {
+function RegisterPage() {
   const {
     register,
     handleSubmit,
@@ -28,8 +28,7 @@ function page() {
   });
   const router = useRouter();
 
-  const onSubmit = (data: RegisterFormData) => {
-    console.log(data);
+  const onSubmit = () => {
     reset();
     toast.success('ثبت نام با موفقیت انجام شد');
     router.push('/login');
@@ -78,4 +77,4 @@ function page() {
   );
 }
 
-export default page;
+export default RegisterPage;

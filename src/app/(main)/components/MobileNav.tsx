@@ -14,7 +14,6 @@ import { navMenuList } from './NavMenu';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
-import Image from 'next/image';
 
 function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
