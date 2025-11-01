@@ -71,7 +71,7 @@ function MobileNav() {
           <MenuIcon className="w-5 h-5 text-primary transition-transform duration-300 group-hover:scale-110" />
         </Button>
         <div />
-        <Button variant={'default'} size={'sm'} className="text-sm">
+        <Button variant={'outline'} size={'sm'} className="text-sm">
           <Link href="/login">ثبت نام | ورود</Link>
         </Button>
       </div>
