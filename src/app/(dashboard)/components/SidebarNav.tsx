@@ -22,4 +22,3 @@ export function SidebarNav({ pathname, isOpen }: SidebarNavProps) {
     </div>
   );
 }
-

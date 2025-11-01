@@ -1,5 +1,4 @@
-import { Button } from '@/components/ui/button';
-import { BellIcon, MenuIcon } from 'lucide-react';
+import { MenuIcon } from 'lucide-react';
 
 interface SidebarHeaderProps {
   isOpen: boolean;
@@ -28,4 +27,3 @@ export function SidebarHeader({ isOpen }: SidebarHeaderProps) {
     </div>
   );
 }
-

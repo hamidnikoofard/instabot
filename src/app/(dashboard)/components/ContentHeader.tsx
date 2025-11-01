@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import { Button } from '@/components';
 import { BellIcon, MenuIcon, X } from 'lucide-react';
 import { usePathname } from 'next/navigation';
@@ -27,7 +27,7 @@ export function ContentHeader({ isOpen, onToggle }: ContentHeaderProps) {
       default:
         return 'داشبورد';
     }
-  }
+  };
   return (
     <div className="sticky top-0 z-40 bg-background/80 backdrop-blur-md supports-backdrop-filter:bg-background/60 mb-6 ">
       <div className="bg-card rounded-xl p-4 mx-4 mt-4 shadow-sm border border-border/50 flex justify-between items-center">

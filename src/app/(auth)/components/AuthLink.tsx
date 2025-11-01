@@ -19,4 +19,3 @@ export function AuthLink({ href, text }: AuthLinkProps) {
     </div>
   );
 }
-

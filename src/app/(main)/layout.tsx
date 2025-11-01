@@ -1,5 +1,5 @@
-import SmoothScrollProvider from "@/hooks/SmoothScrollProvider";
-import { Footer, Header } from "./components";
+import SmoothScrollProvider from '@/hooks/SmoothScrollProvider';
+import { Footer, Header } from './components';
 
 export default function MainLayout({
   children,

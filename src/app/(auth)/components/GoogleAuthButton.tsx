@@ -29,4 +29,3 @@ export function GoogleAuthButton({ text }: GoogleAuthButtonProps) {
     </>
   );
 }
-

@@ -8,4 +8,3 @@ export * from './ui/ThemeToggle';
 export * from '../app/(main)/components/CtaCard';
 export * from '../app/(main)/components/FaqSection';
 export * from '@radix-ui/react-label';
-

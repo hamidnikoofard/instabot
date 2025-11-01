@@ -30,4 +30,3 @@ export function AuthHeader({ title, description }: AuthHeaderProps) {
     </div>
   );
 }
-

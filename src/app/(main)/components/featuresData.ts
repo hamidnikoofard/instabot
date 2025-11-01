@@ -1,4 +1,11 @@
-import { MessageSquare, Zap, BarChart3, ShoppingBag, Users, Bell } from 'lucide-react';
+import {
+  MessageSquare,
+  Zap,
+  BarChart3,
+  ShoppingBag,
+  Users,
+  Bell,
+} from 'lucide-react';
 
 export interface FeatureData {
   id: string;

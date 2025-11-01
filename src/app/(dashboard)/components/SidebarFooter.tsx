@@ -38,4 +38,3 @@ export function SidebarFooter({ isOpen }: SidebarFooterProps) {
     </div>
   );
 }
-

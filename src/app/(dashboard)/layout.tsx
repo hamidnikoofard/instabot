@@ -1,7 +1,11 @@
 'use client';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { BottomNavigationBar, ContentHeader, SidebarNavigation } from './components';
+import {
+  BottomNavigationBar,
+  ContentHeader,
+  SidebarNavigation,
+} from './components';
 
 export default function DashboardLayout({
   children,

@@ -58,7 +58,6 @@ function page() {
       </form>
 
       <GoogleAuthButton text="ورود با Google" />
-
     </div>
   );
 }

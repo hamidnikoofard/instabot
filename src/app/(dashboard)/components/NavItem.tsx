@@ -63,4 +63,3 @@ export function NavItemComponent({ item, isActive, isOpen }: NavItemProps) {
     </div>
   );
 }
-
